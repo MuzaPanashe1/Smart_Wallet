@@ -1,0 +1,27 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+server/.env
+
+# Fraud detection data
+fraud-detection/data/
+
+# Node.js dependencies
+**/node_modules/
+
+# Build files
+**/dist/
+**/build/
+
+# Python generated files
+**/__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE and system files
+.vscode/
+.DS_Store
+Thumbs.db

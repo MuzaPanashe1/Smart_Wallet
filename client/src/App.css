@@ -1,0 +1,109 @@
+html, body, #root {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(15, 23, 42, 0.8);
+  color: #f8fafc;
+}
+
+.badge-low {
+  background: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
+.badge-medium {
+  background: rgba(245, 158, 11, 0.12);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.25);
+}
+
+.badge-high {
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+.badge-completed {
+  background: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
+.badge-flagged {
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+.badge-pending {
+  background: rgba(245, 158, 11, 0.12);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.25);
+}
+
+.badge-rejected {
+  background: rgba(100, 116, 139, 0.12);
+  color: #cbd5e1;
+  border: 1px solid rgba(100, 116, 139, 0.25);
+}
+
+.badge-approved {
+  background: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
+.badge-resolved {
+  background: rgba(16, 185, 129, 0.12);
+  color: #6ee7b7;
+  border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
+.badge-low-risk,
+.badge-medium-risk,
+.badge-high-risk {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.badge-low-risk {
+  background: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+}
+
+.badge-medium-risk {
+  background: rgba(245, 158, 11, 0.12);
+  color: #fbbf24;
+}
+
+.badge-high-risk {
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+}

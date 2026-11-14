@@ -1,0 +1,23 @@
+Smart Wallet PaySim Random Forest evaluation
+Trained at (UTC): 2026-10-11T23:56:02.576578+00:00
+Dataset: C:\Users\Panashe\OneDrive\Desktop\Smart_Wallet\fraud-detection\data\PS_20174392719_1491204439457_log.csv
+Included transaction types: TRANSFER, CASH_OUT
+Features: amount, is_transfer, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest, hour, balance_error
+Split: 80/20, stratified, random_state=42
+Train rows: 2,216,327
+Test rows: 554,082
+Fraud examples: 8,213
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     1.0000    1.0000    1.0000    552439
+           1     0.9994    0.9970    0.9982      1643
+
+    accuracy                         1.0000    554082
+   macro avg     0.9997    0.9985    0.9991    554082
+weighted avg     1.0000    1.0000    1.0000    554082
+
+Confusion matrix (actual rows, predicted columns; labels 0, 1):
+[[552438      1]
+ [     5   1638]]

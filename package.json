@@ -1,0 +1,20 @@
+{
+  "name": "smart-wallet",
+  "version": "1.0.0",
+  "description": "AI-Powered Multi-Currency Travel Wallet with Exchange Rate Management and Fraud Detection for Cross-Border Travellers",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "fraud": "python fraud-detection/app.py",
+    "seed": "npm --prefix server run seed"
+  },
+  "keywords": [
+    "travel-wallet",
+    "multi-currency",
+    "fraud-detection",
+    "scikit-learn",
+    "fintech"
+  ],
+  "author": "University CS Project",
+  "license": "MIT"
+}
